@@ -1,0 +1,25 @@
+
+.big-container{
+   margin-top: 20px;
+}
+
+img{
+   max-width: 800px;
+}
+
+i.fa{
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.row .col-xs-2 > i:first-child {
+   margin-right: 20px;
+}
+
+.row .col-xs-2 > i:last-child {
+   margin-left: 20px;
+}
+
+/*select{
+   margin-top: 50px;
+}*/
