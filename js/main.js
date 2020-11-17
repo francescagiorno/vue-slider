@@ -8,14 +8,15 @@ const slider = new Vue({
   methods:{
     prevSlider:function(){
       if(this.index === 0){
-        this.index = this.arr.length
+        this.index = this.arr.length-1
       }else{
         this.index--
       }
+    
     },
 
     nextSlider: function(){
-      if(this.index === this.arr.length){
+      if(this.index === this.arr.length-1){
         this.index = 0
       }else{
       this.index++}
