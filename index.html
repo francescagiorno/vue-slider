@@ -30,7 +30,9 @@
             <i @click="nextSlider"  class="fa fa-arrow-circle-right" aria-hidden="true"></i>
           </div>
           <div class="col-xs-12">
-
+            <select v-model="index">
+              <option v-for="image in arr.length" :value="image - 1">img {{image}}</option>
+            </select>
           </div>
         </div>
       </div>
